@@ -1,0 +1,18 @@
+Feature: Como usuário do sistema, 
+    quero poder fazer login no aplicativo usando meu e-mail e senha
+    para poder gerenciar minhas informacoes pessoais.
+
+Critérios de aceitação:
+    Dado que o usuário está na página de login
+    Quando o usuário insere um e-mail e senha válidos
+    E o usuário clica no botão de login
+    Então o usuário deve estar logado na aplicacao
+
+Cenário:
+    O usuário navega até a página de login.
+    O usuário insere um endereço de e-mail válido no campo de e-mail.
+    O usuário insere uma senha válida no campo de senha.
+    O usuário clica no botão de login.
+    O aplicativo verifica as credenciais do usuário.
+    Se as credenciais forem válidas, o aplicativo faz login do usuário e o redireciona para a página inicial.
+
